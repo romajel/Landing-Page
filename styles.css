@@ -2,12 +2,15 @@ body{   font-family: sans-serif;
 }
 .header{
     display:flex;
-    justify-content:space-around;
-   
+    justify-content:space-between;
+      
 }
-.logo{
-    font-size:24px;
-    color:#F9FAF8;
+
+.logo img{
+    width:100px;
+    height:80px;
+    border-radius:50%;
+    margin-left:50px;
 }
 .hero{    
     background:#1F2937;
@@ -28,9 +31,13 @@ a{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    margin:30px;        
+    margin:10px;        
 }
 .img{margin-right:50px;    
+}
+.img img{
+    width:400px;
+    height:300px;
 }
 h1{
     font-size:48px;
@@ -83,8 +90,12 @@ button{
 .photo-text{
     width:150px;
 }
+.photo-text img{
+    width:150px;
+    height:150px;
+}
 .quote{
-    font-size:36px;
+    font-size:28px;
     font-style:italic;
     color:#1F2937;
     background:#E5E7EB;
@@ -94,7 +105,7 @@ button{
 span{
     display:flex;
     justify-content:flex-end;
-    font-size:24px;
+    font-size:18px;
     font-weight: bold;
     padding-right:50px;
 }
